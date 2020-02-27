@@ -18,4 +18,4 @@ jobs:
     - name: Test with gradle
       run: ./gradlew testDebug
     - name: create debug apk
-       run: ./gradlew assembleDebug
+      run: ./gradlew assemble
